@@ -1,7 +1,7 @@
 body {
-    background: linear-gradient(135deg, #0e0e2c, #1a1a3d);
+    background: linear-gradient(135deg, #121212, #1a1a1a);
     font-family: 'Orbitron', sans-serif;
-    color: #00ffc3;
+    color: #e1e1e1;
     margin: 0;
     padding: 0;
     display: flex;
@@ -15,29 +15,28 @@ h1 {
     font-size: 3em;
     margin: 20px 0;
     text-transform: uppercase;
-    color: #ff0066;
-    text-shadow: 0 0 15px #ff0066, 0 0 30px #ff0066;
+    color: #ff3b8c;
+    text-shadow: 0 0 12px #ff3b8c, 0 0 30px #ff3b8c;
 }
 
 iframe {
     margin: 20px 0;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 90%;
     max-width: 800px;
     height: 450px;
-    box-shadow: 0 0 15px rgba(0, 255, 195, 0.6);
+    box-shadow: 0 0 15px rgba(255, 59, 140, 0.4);
 }
 
 .avatar-list {
     width: 90%;
     max-width: 700px;
-    background: rgba(20, 30, 48, 0.9);
-    border: 1px solid #00ffc3;
-    border-radius: 10px;
+    background: rgba(22, 22, 30, 0.9);
     padding: 20px;
     overflow-y: auto;
-    box-shadow: 0 0 15px rgba(0, 255, 195, 0.8);
+    box-shadow: 0 0 15px rgba(255, 59, 140, 0.5);
+    border-radius: 10px;
 }
 
 .avatar-item {
@@ -46,18 +45,17 @@ iframe {
     align-items: center;
     margin-bottom: 15px;
     padding: 12px;
-    background: rgba(36, 43, 85, 0.8);
-    border: 1px solid #ff0066;
+    background: rgba(35, 35, 47, 0.8);
     border-radius: 8px;
 }
 
 .avatar-item span {
     font-size: 1.2em;
-    color: #00ffc3;
+    color: #e1e1e1;
 }
 
 .copy-button {
-    background: linear-gradient(135deg, #ff0066, #ff6600);
+    background: linear-gradient(135deg, #ff3b8c, #ff80aa);
     border: none;
     color: #fff;
     padding: 12px 20px;
@@ -68,6 +66,6 @@ iframe {
 }
 
 .copy-button:hover {
-    background: linear-gradient(135deg, #ff6600, #ff0066);
+    background: linear-gradient(135deg, #ff80aa, #ff3b8c);
     transform: scale(1.05);
 }
