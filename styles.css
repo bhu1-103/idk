@@ -70,3 +70,49 @@ iframe {
     transform: scale(1.05);
 }
 
+ul.games-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.game-item {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.game-link {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.game-link:hover {
+    background-color: #ff8c00;
+    color: white;
+}
+
+.game-image {
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-item:hover .game-image {
+    display: block;
+}
+
+.game-item:hover .game-link {
+    margin-bottom: 10px;
+}
